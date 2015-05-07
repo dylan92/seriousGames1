@@ -1,0 +1,29 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 765M (ID=0x11e2)
+    Vendor:   NVIDIA
+    VRAM:     1985 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\cssparse.net.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\cssparse.net.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\DeJson.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\DeJson.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\HappyFunTimes.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\HappyFunTimes.dll into Unity Child Domain
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\websocket-sharp.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\unitysimpleexample-win_Data\Managed\System.Core.dll (this message is harmless)

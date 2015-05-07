@@ -1,0 +1,14 @@
+{
+  "dependencies": {},
+  "description": "Serious Games Project 3",
+  "happyFunTimes": {
+    "apiVersion": "1.9.0",
+    "category": "example",
+    "gameId": "SGP3",
+    "gameType": "Unity3D",
+    "minPlayers": 1
+  },
+  "name": "SGP3",
+  "private": false,
+  "version": "0.0.7"
+}

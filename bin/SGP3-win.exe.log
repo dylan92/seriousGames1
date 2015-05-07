@@ -1,0 +1,738 @@
+
+LICENSE SYSTEM [201557 2:5:55] Next license update check is after 2015-05-07T19:14:02
+
+Built from 'release/4.6/release' branch; Version is '4.6.1f1 (d1db7a1b5196) revision 182341'; Using compiler version '160040219'
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, shouldGiveDebuggerChanceToAttach: 0
+Initialize mono
+Mono path[0] = 'C:/Program Files (x86)/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'C:/Program Files (x86)/Unity/Editor/Data/UnityScript'
+Mono config path = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
+
+ BATCHMODE ARGUMENTS:
+C:\Program Files (x86)\Unity\Editor\Unity.exe
+-batchmode
+-buildWindowsPlayer
+C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\SGP3-win.exe
+-logFile
+C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\SGP3-win.exe.log
+-projectPath
+C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master
+-quit
+-nographics
+Successfully changed project path to: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master
+C:/Users/Kechen/Documents/School/Drexel 43/SGP3/hft-unitysimple-master
+Loading GUID <-> Path mappings ... 0.000190 seconds.
+Loading Asset Database ...  0.000004 seconds
+AssetDatabase consistency checks ... Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000001000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000002000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000003000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000004000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000004100000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000005000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000005100000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000006000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000006100000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000007000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000008000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/00000000000000009000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/0000000000000000a000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/0000000000000000b000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/00/0000000000000000c000000000000000.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/0f/0f422c4223df5441687fc30585cbe663.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/11/11bd6d22835b64c1693243f466b28b8b.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/27/2779ea029b7e74b888750a35582a80a5.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/2d/2d41102e9aa7c4c9ba653080de50379d.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/36/3638d5406108c4cd6973e9710f142f80.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/3c/3cf2bdaa171fd4665bd33588ff75dac9.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/41/41d8df59940ff42b48db3bda693f4fef.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/4a/4a3055707ce15480890340d798a9b9b7.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/6b/6bc2024f329674412814d3096f615f51.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/72/72034bb56b49d4206a9b4d05f798e6e1.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/73/734edc196c93b4669b0b254c24ce6a20.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/7c/7cafc1368417a4fbb8494246787d231f.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/81/811bf79f9761f4506a05199e22cf1bb4.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/89/89cef71049c4040a2a1bb5ad17996597.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/9e/9eb1fc65db1f74e84988de76d3e9d5f0.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/aa/aae7fab460e704aae8fa6f10e67147d7.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/ab/abbcf33034ca74884bcb1713bf447b33.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/b9/b933e6793a3444bbd92143052a514c11.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/ba/ba761a7da52eb4241b9f6c71c1628385.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/c3/c337b686bde594686b86f055136396be.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/cd/cd846dde14c344a1f864371035177ea0.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/d3/d37d9091b5a734efc8cf1d15cb7772b2.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/d6/d6a5f29295cf14bc8bd660857ae6bade.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/d7/d76a3bde23a624b29bf8ff3f4ddf6261.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/db/db125c5fb84b8402fb367861cbcdb3fd.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/dd/dd8b75dc49f494a42a49f412770063f3.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/e4/e40a1585d654f4110aff867d2de0987a.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/e6/e6eaacbb8fe9242f8a675f8ece79d2ee.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/ec/ecbd236ee649d43798aae5a718267344.info'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info'
+Rebuilding GUID cache ... Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000001000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000002000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000003000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000004000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000005000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000006000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000007000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000008000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000009000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/0000000000000000a000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/0000000000000000b000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/0000000000000000c000000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000004100000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000005100000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/00/00000000000000006100000000000000 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/89/89cef71049c4040a2a1bb5ad17996597 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/ab/abbcf33034ca74884bcb1713bf447b33 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/36/3638d5406108c4cd6973e9710f142f80 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/4a/4a3055707ce15480890340d798a9b9b7 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/d3/d37d9091b5a734efc8cf1d15cb7772b2 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/27/2779ea029b7e74b888750a35582a80a5 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/11/11bd6d22835b64c1693243f466b28b8b because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/0f/0f422c4223df5441687fc30585cbe663 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/d6/d6a5f29295cf14bc8bd660857ae6bade because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/aa/aae7fab460e704aae8fa6f10e67147d7 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/9e/9eb1fc65db1f74e84988de76d3e9d5f0 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/e4/e40a1585d654f4110aff867d2de0987a because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/72/72034bb56b49d4206a9b4d05f798e6e1 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/7c/7cafc1368417a4fbb8494246787d231f because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/c3/c337b686bde594686b86f055136396be because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/73/734edc196c93b4669b0b254c24ce6a20 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/41/41d8df59940ff42b48db3bda693f4fef because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/b9/b933e6793a3444bbd92143052a514c11 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/3c/3cf2bdaa171fd4665bd33588ff75dac9 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/e6/e6eaacbb8fe9242f8a675f8ece79d2ee because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/80/80a3616ca19596e4da0f10f14d241e9f because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/dd/dd8b75dc49f494a42a49f412770063f3 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/ba/ba761a7da52eb4241b9f6c71c1628385 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/2d/2d41102e9aa7c4c9ba653080de50379d because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/ec/ecbd236ee649d43798aae5a718267344 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/d7/d76a3bde23a624b29bf8ff3f4ddf6261 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/cd/cd846dde14c344a1f864371035177ea0 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/6b/6bc2024f329674412814d3096f615f51 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/db/db125c5fb84b8402fb367861cbcdb3fd because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+Rebuiling GUID cache: Deleting metadata library/metadata/81/811bf79f9761f4506a05199e22cf1bb4 because it is an invalid meta data file!
+MetaData class can't be loaded
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Editor/Src/AssetPipeline/AssetInterface.cpp Line: 1301)
+
+0.057108 seconds.
+ 0.104694 seconds
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.6.1 for Unity v4.6.1
+Setting GUISystem v4.6.1 for Unity v4.6.1f1 to C:/Program Files (x86)/Unity/Editor/Data\UnityExtensions\Unity\GUISystem\4.6.1
+Registering custom dll's ...
+Non platform assembly: data-13655FC8 (this message is harmless)
+Non platform assembly: data-13655FC8 (this message is harmless)
+Non platform assembly: data-13655FC8 (this message is harmless)
+Non platform assembly: data-13655FC8 (this message is harmless)
+Non platform assembly: data-13655FC8 (this message is harmless)
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.010431 seconds.
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.436 seconds
+System memory in use before: 3.7 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 3.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 2.492795 ms (FindLiveObjects: 0.021810 ms CreateObjectMapping: 0.012829 ms MarkObjects: 0.578188 ms  DeleteObjects: 0.003421 ms)
+
+Validating Project structure ... 0.000878 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000822 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Non platform assembly: data-13ABD850 (this message is harmless)
+Non platform assembly: data-13ABD850 (this message is harmless)
+Non platform assembly: data-13ABD850 (this message is harmless)
+Non platform assembly: data-13ABD850 (this message is harmless)
+Non platform assembly: data-13ABD850 (this message is harmless)
+
+Hashing assets ... 0.003112 seconds
+----- Compute hash(es) for 11 asset(s).
+
+*** ba761a7da52eb4241b9f6c71c1628385 replaces 066033fa75f91b7418a441c0f39b2761 at path assets/happyfuntimes/materials/examplebasicmaterial.mat 
+*** e6eaacbb8fe9242f8a675f8ece79d2ee replaces 55c630e8fca2a224dbcbe679893b7594 at path assets/happyfuntimes/prefabs/prefabforexamplesimple.prefab 
+*** 6bc2024f329674412814d3096f615f51 replaces 0f88aab6bd839154b961cd705a34f7b0 at path assets/happyfuntimes/scripts/examplesimplegamesettings.cs 
+*** aae7fab460e704aae8fa6f10e67147d7 replaces 792cdf82acc2fb143b2bbbdf7bc11e1d at path assets/happyfuntimes/scripts/examplesimplegoal.cs 
+*** 89cef71049c4040a2a1bb5ad17996597 replaces 1d413d48e8a183043827552df22fb39c at path assets/happyfuntimes/scripts/examplesimpleplayer.cs 
+*** 9eb1fc65db1f74e84988de76d3e9d5f0 replaces bfa6fde220402f9408e9091eea847260 at path assets/plugins/dejson.dll 
+Non platform assembly: data-13ABD850 (this message is harmless)
+*** e40a1585d654f4110aff867d2de0987a replaces 2586e92f214e7874187755dbd0767b00 at path assets/plugins/editor/happyfuntimesedtior.dll 
+Non platform assembly: data-13ABD850 (this message is harmless)
+*** 3638d5406108c4cd6973e9710f142f80 replaces d1189da6e4f31f1438eedcb984a5cf9d at path assets/plugins/hftrunner.cs 
+*** 41d8df59940ff42b48db3bda693f4fef replaces 1186553c13c495d428167ffb63d6de33 at path assets/plugins/happyfuntimes.dll 
+Non platform assembly: data-13ABD850 (this message is harmless)
+*** b933e6793a3444bbd92143052a514c11 replaces 5deaf0cdc5b16fc438cabdb71e5430e2 at path assets/plugins/cssparse.net.dll 
+Non platform assembly: data-13ABD850 (this message is harmless)
+*** db125c5fb84b8402fb367861cbcdb3fd replaces 88551ef67a240c849b02c6c082df7a38 at path assets/plugins/websocket-sharp.dll 
+Non platform assembly: data-13ABD850 (this message is harmless)
+Non platform assembly: data-13ABD850 (this message is harmless)
+Non platform assembly: data-13ABD850 (this message is harmless)
+Refresh: elapses 0.051407 seconds
+Refresh: trashing asset 00000000000000000000000000000000
+Refresh: trashing asset 792cdf82acc2fb143b2bbbdf7bc11e1d
+Refresh: trashing asset bfa6fde220402f9408e9091eea847260
+Refresh: trashing asset d1189da6e4f31f1438eedcb984a5cf9d
+Refresh: trashing asset 0f88aab6bd839154b961cd705a34f7b0
+Refresh: trashing asset 88551ef67a240c849b02c6c082df7a38
+Refresh: trashing asset 1d413d48e8a183043827552df22fb39c
+Refresh: trashing asset 55c630e8fca2a224dbcbe679893b7594
+Refresh: trashing asset 066033fa75f91b7418a441c0f39b2761
+Refresh: trashing asset 1186553c13c495d428167ffb63d6de33
+Refresh: trashing asset 5deaf0cdc5b16fc438cabdb71e5430e2
+Refresh: trashing asset 2586e92f214e7874187755dbd0767b00
+Updating Assets - GUID: 00000000000000001000000000000000...
+ done. [Time: 18.123120 ms] 
+Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
+ done. [Time: 7.723431 ms] 
+Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
+ done. [Time: 6.133413 ms] 
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 10.066119 ms] 
+Updating ProjectSettings/NavMeshLayers.asset - GUID: 00000000000000004100000000000000...
+ done. [Time: 6.449022 ms] 
+Updating Library/BuildPlayer.prefs - GUID: 00000000000000005000000000000000...
+ done. [Time: 17.986698 ms] 
+Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
+ done. [Time: 7.415520 ms] 
+Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
+ done. [Time: 101.093978 ms] 
+Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
+ done. [Time: 7.362491 ms] 
+Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
+ done. [Time: 8.585581 ms] 
+Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
+ done. [Time: 5.529566 ms] 
+Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
+ done. [Time: 8.033480 ms] 
+Updating ProjectSettings/NetworkManager.asset - GUID: 0000000000000000a000000000000000...
+ done. [Time: 23.651831 ms] 
+Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
+ done. [Time: 8.619366 ms] 
+Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
+ done. [Time: 7.387722 ms] 
+Updating Assets/Plugins - GUID: 0f422c4223df5441687fc30585cbe663...
+ done. [Time: 9.664980 ms] 
+Updating Assets/HappyFunTimes - GUID: 734edc196c93b4669b0b254c24ce6a20...
+ done. [Time: 10.774742 ms] 
+Updating Assets/WebPlayerTemplates - GUID: d37d9091b5a734efc8cf1d15cb7772b2...
+ done. [Time: 9.162486 ms] 
+Updating Assets/HappyFunTimes/Scripts - GUID: 2779ea029b7e74b888750a35582a80a5...
+ done. [Time: 8.717298 ms] 
+Updating Assets/HappyFunTimes/Scenes - GUID: 72034bb56b49d4206a9b4d05f798e6e1...
+ done. [Time: 9.487931 ms] 
+Updating Assets/HappyFunTimes/Prefabs - GUID: 7cafc1368417a4fbb8494246787d231f...
+ done. [Time: 8.404683 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes - GUID: c337b686bde594686b86f055136396be...
+ done. [Time: 8.298197 ms] 
+Updating Assets/Plugins/Editor - GUID: cd846dde14c344a1f864371035177ea0...
+ done. [Time: 8.724569 ms] 
+Updating Assets/HappyFunTimes/Materials - GUID: d76a3bde23a624b29bf8ff3f4ddf6261...
+ done. [Time: 8.118155 ms] 
+Updating Assets/HappyFunTimes/Scenes/HappyFunTimesSimpleExample.unity - GUID: 11bd6d22835b64c1693243f466b28b8b...
+ done. [Time: 8.484655 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/icon.png - GUID: 2d41102e9aa7c4c9ba653080de50379d...
+ done. [Time: 21.528957 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/controller.html - GUID: 4a3055707ce15480890340d798a9b9b7...
+ done. [Time: 11.426914 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/css - GUID: abbcf33034ca74884bcb1713bf447b33...
+ done. [Time: 8.587719 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/package.json - GUID: d6a5f29295cf14bc8bd660857ae6bade...
+ done. [Time: 10.554928 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/scripts - GUID: dd8b75dc49f494a42a49f412770063f3...
+ done. [Time: 8.534690 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/screenshot.png - GUID: ecbd236ee649d43798aae5a718267344...
+ done. [Time: 9.750083 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/scripts/controller.js - GUID: 3cf2bdaa171fd4665bd33588ff75dac9...
+ done. [Time: 10.088785 ms] 
+Updating Assets/WebPlayerTemplates/HappyFunTimes/css/controller.css - GUID: 811bf79f9761f4506a05199e22cf1bb4...
+ done. [Time: 10.794841 ms] 
+Updating Assets/Plugins/HFTRunner.cs - GUID: 3638d5406108c4cd6973e9710f142f80...
+ done. [Time: 97.640678 ms] 
+Non platform assembly: data-12AEED38 (this message is harmless)
+Updating Assets/Plugins/HappyFunTimes.dll - GUID: 41d8df59940ff42b48db3bda693f4fef...
+ done. [Time: 73.059976 ms] 
+Updating Assets/HappyFunTimes/Scripts/ExampleSimpleGameSettings.cs - GUID: 6bc2024f329674412814d3096f615f51...
+ done. [Time: 45.231678 ms] 
+Non platform assembly: data-148F6A28 (this message is harmless)
+Updating C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll - GUID: 80a3616ca19596e4da0f10f14d241e9f...
+ done. [Time: 29.726228 ms] 
+Updating Assets/HappyFunTimes/Scripts/ExampleSimplePlayer.cs - GUID: 89cef71049c4040a2a1bb5ad17996597...
+ done. [Time: 24.937786 ms] 
+Non platform assembly: data-13BD46B8 (this message is harmless)
+Updating Assets/Plugins/DeJson.dll - GUID: 9eb1fc65db1f74e84988de76d3e9d5f0...
+ done. [Time: 13.737529 ms] 
+Updating Assets/HappyFunTimes/Scripts/ExampleSimpleGoal.cs - GUID: aae7fab460e704aae8fa6f10e67147d7...
+ done. [Time: 27.783824 ms] 
+Non platform assembly: data-13BD46B8 (this message is harmless)
+Updating Assets/Plugins/cssparse.net.dll - GUID: b933e6793a3444bbd92143052a514c11...
+ done. [Time: 13.837172 ms] 
+Non platform assembly: data-13BD46B8 (this message is harmless)
+Updating Assets/Plugins/websocket-sharp.dll - GUID: db125c5fb84b8402fb367861cbcdb3fd...
+ done. [Time: 27.378837 ms] 
+Non platform assembly: data-13BD46B8 (this message is harmless)
+Updating Assets/Plugins/Editor/HappyFunTimesEdtior.dll - GUID: e40a1585d654f4110aff867d2de0987a...
+ done. [Time: 41.978087 ms] 
+Non platform assembly: data-13BD46B8 (this message is harmless)
+Updating C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll - GUID: f5f67c52d1564df4a8936ccd202a3bd8...
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 17
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 17
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Reloading assemblies after successful script compilation.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Registering custom dll's ...
+Non platform assembly: data-12B9A628 (this message is harmless)
+Non platform assembly: data-1303E1A8 (this message is harmless)
+Non platform assembly: data-1494B128 (this message is harmless)
+Non platform assembly: data-138CED40 (this message is harmless)
+Non platform assembly: data-12B9A628 (this message is harmless)
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.008974 seconds.
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.6.1 for Unity v4.6.1
+Setting GUISystem v4.6.1 for Unity v4.6.1f1 to C:/Program Files (x86)/Unity/Editor/Data\UnityExtensions\Unity\GUISystem\4.6.1
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+ done. [Time: 1893.734813 ms] 
+Updating Assets/HappyFunTimes/Materials/ExampleBasicMaterial.mat - GUID: ba761a7da52eb4241b9f6c71c1628385...
+ done. [Time: 77.883914 ms] 
+Updating Assets/HappyFunTimes/Prefabs/PrefabForExampleSimple.prefab - GUID: e6eaacbb8fe9242f8a675f8ece79d2ee...
+ done. [Time: 99.946156 ms] 
+System memory in use before: 11.6 MB.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.1 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 339.
+Total: 36.491714 ms (FindLiveObjects: 0.029080 ms CreateObjectMapping: 0.007697 ms MarkObjects: 0.573911 ms  DeleteObjects: 30.274052 ms)
+
+
+----- Total AssetImport time: 3.340102s, AssetImport time: 3.286743s, Asset hashing: 0.003267s [328.8 KB, 98.269188 mb/s]
+
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 6.384018 ms] 
+
+----- Total AssetImport time: 0.034088s, AssetImport time: 0.021959s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+System memory in use before: 7.5 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 339.
+Total: 2.196858 ms (FindLiveObjects: 0.016678 ms CreateObjectMapping: 0.007270 ms MarkObjects: 0.597432 ms  DeleteObjects: 0.531146 ms)
+
+building x86 windows player!
+DisplayProgressbar: Building Player
+building target 5
+Native extension for build target not found
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 5
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 5
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Native extension for build target not found
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.001613 seconds (Nothing changed)
+Determining assets that need to be reimported for target platform ... 0.007280 seconds.
+
+----- Total AssetImport time: 0.007296s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+System memory in use before: 8.6 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 4.123867 ms (FindLiveObjects: 0.021382 ms CreateObjectMapping: 0.007270 ms MarkObjects: 0.942121 ms  DeleteObjects: 0.478117 ms)
+
+
+
+Mono dependencies included in the build
+Dependency assembly - DeJson.dll
+Dependency assembly - HappyFunTimes.dll
+Dependency assembly - cssparse.net.dll
+Dependency assembly - websocket-sharp.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - Assembly-CSharp-firstpass.dll
+Dependency assembly - Assembly-CSharp.dll
+
+System memory in use before: 7.3 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 1.435634 ms (FindLiveObjects: 0.020955 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.914751 ms  DeleteObjects: 0.002565 ms)
+
+System memory in use before: 8.0 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 350.
+Total: 2.937555 ms (FindLiveObjects: 0.029080 ms CreateObjectMapping: 0.007270 ms MarkObjects: 0.930147 ms  DeleteObjects: 0.003848 ms)
+
+System memory in use before: 7.4 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 344.
+Total: 1.532284 ms (FindLiveObjects: 0.023520 ms CreateObjectMapping: 0.006414 ms MarkObjects: 1.007552 ms  DeleteObjects: 0.003421 ms)
+
+System memory in use before: 116.8 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.7 MB.
+
+Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 360.
+Total: 61.959793 ms (FindLiveObjects: 0.023948 ms CreateObjectMapping: 0.008980 ms MarkObjects: 0.973340 ms  DeleteObjects: 58.295650 ms)
+
+System memory in use before: 14.8 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 365.
+Total: 2.190871 ms (FindLiveObjects: 0.049180 ms CreateObjectMapping: 0.010263 ms MarkObjects: 1.377901 ms  DeleteObjects: 0.006414 ms)
+
+
+Textures      0.0 kb	 0.0% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       0.0 kb	 0.0% 
+Other Assets  0.0 kb	 0.0% 
+Levels        9.6 kb	 0.2% 
+Scripts       466.6 kb	 10.3% 
+Included DLLs 3.9 mb	 89.3% 
+File headers  8.2 kb	 0.2% 
+Complete size 4.4 mb	 100.0% 
+
+Used Assets, sorted by uncompressed size:
+ 3.4 kb	 0.1% C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll
+ 0.3 kb	 0.0% Assets/Plugins/HappyFunTimes.dll
+ 0.1 kb	 0.0% Assets/HappyFunTimes/Scripts/ExampleSimpleGameSettings.cs
+ 0.1 kb	 0.0% Assets/HappyFunTimes/Scripts/ExampleSimplePlayer.cs
+ 0.1 kb	 0.0% Assets/HappyFunTimes/Scripts/ExampleSimpleGoal.cs
+ 0.1 kb	 0.0% Assets/Plugins/HFTRunner.cs
+System memory in use before: 14.7 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 1.507052 ms (FindLiveObjects: 0.024803 ms CreateObjectMapping: 0.008125 ms MarkObjects: 0.968636 ms  DeleteObjects: 0.003848 ms)
+
+System memory in use before: 14.7 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 1.497216 ms (FindLiveObjects: 0.031218 ms CreateObjectMapping: 0.005987 ms MarkObjects: 0.980182 ms  DeleteObjects: 0.003848 ms)
+
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 5
+System memory in use before: 14.9 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 2.208405 ms (FindLiveObjects: 0.032074 ms CreateObjectMapping: 0.007270 ms MarkObjects: 0.969491 ms  DeleteObjects: 0.488380 ms)
+
+
+*** Completed 'Build.Player.WindowsStandaloneSupport' in 16 seconds
+
+Batchmode quit successfully invoked - shutting down!
+System memory in use before: 14.7 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 1.411685 ms (FindLiveObjects: 0.018389 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.892941 ms  DeleteObjects: 0.003848 ms)
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.002008 seconds (Nothing changed)
+Cleanup mono
+Exiting batchmode successfully now!
+debugger-agent: Unable to listen on 780

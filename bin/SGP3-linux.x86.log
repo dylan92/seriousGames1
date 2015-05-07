@@ -1,0 +1,316 @@
+
+LICENSE SYSTEM [201557 2:6:23] Next license update check is after 2015-05-07T19:14:02
+
+Built from 'release/4.6/release' branch; Version is '4.6.1f1 (d1db7a1b5196) revision 182341'; Using compiler version '160040219'
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, shouldGiveDebuggerChanceToAttach: 0
+Initialize mono
+Mono path[0] = 'C:/Program Files (x86)/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'C:/Program Files (x86)/Unity/Editor/Data/UnityScript'
+Mono config path = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
+
+ BATCHMODE ARGUMENTS:
+C:\Program Files (x86)\Unity\Editor\Unity.exe
+-batchmode
+-buildLinux32Player
+C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\SGP3-linux.x86
+-logFile
+C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\bin\SGP3-linux.x86.log
+-projectPath
+C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master
+-quit
+-nographics
+Successfully changed project path to: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master
+C:/Users/Kechen/Documents/School/Drexel 43/SGP3/hft-unitysimple-master
+Loading GUID <-> Path mappings ... 0.000549 seconds.
+Loading Asset Database ...  0.002574 seconds
+AssetDatabase consistency checks ...  0.021991 seconds
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.6.1 for Unity v4.6.1
+Setting GUISystem v4.6.1 for Unity v4.6.1f1 to C:/Program Files (x86)/Unity/Editor/Data\UnityExtensions\Unity\GUISystem\4.6.1
+Registering custom dll's ...
+Non platform assembly: data-1389E0D0 (this message is harmless)
+Non platform assembly: data-1389E0D0 (this message is harmless)
+Non platform assembly: data-1389E0D0 (this message is harmless)
+Non platform assembly: data-1389E0D0 (this message is harmless)
+Non platform assembly: data-1389E0D0 (this message is harmless)
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.014641 seconds.
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.491 seconds
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Reloading assemblies after successful script compilation.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Registering custom dll's ...
+Non platform assembly: data-12CE7490 (this message is harmless)
+Non platform assembly: data-13085F28 (this message is harmless)
+Non platform assembly: data-1320A960 (this message is harmless)
+Non platform assembly: data-136C16F0 (this message is harmless)
+Non platform assembly: data-12CE7490 (this message is harmless)
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll
+Registered in 0.009280 seconds.
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.6.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.1\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\cssparse.net.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\DeJson.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\HappyFunTimes.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\websocket-sharp.dll into Unity Child Domain
+Non platform assembly: C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll (this message is harmless)
+Loading C:\Users\Kechen\Documents\School\Drexel 43\SGP3\hft-unitysimple-master\Assets\Plugins\Editor\HappyFunTimesEdtior.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BlackBerryPlayer\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.6.1 for Unity v4.6.1
+Setting GUISystem v4.6.1 for Unity v4.6.1f1 to C:/Program Files (x86)/Unity/Editor/Data\UnityExtensions\Unity\GUISystem\4.6.1
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+System memory in use before: 6.4 MB.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 4.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 331.
+Total: 5.092503 ms (FindLiveObjects: 0.031218 ms CreateObjectMapping: 0.005131 ms MarkObjects: 0.555950 ms  DeleteObjects: 0.540554 ms)
+
+Validating Project structure ... 0.000913 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.016997 seconds
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 22.049410 ms] 
+
+----- Total AssetImport time: 0.078840s, AssetImport time: 0.062583s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+System memory in use before: 4.8 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 4.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 331.
+Total: 2.715602 ms (FindLiveObjects: 0.023520 ms CreateObjectMapping: 0.005131 ms MarkObjects: 0.592300 ms  DeleteObjects: 0.547397 ms)
+
+building x86 linux player!
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 6.396848 ms] 
+
+----- Total AssetImport time: 0.037544s, AssetImport time: 0.022461s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+DisplayProgressbar: Building Player
+building target 17
+Native extension for build target not found
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 17
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 17
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Native extension for build target not found
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.001581 seconds (Nothing changed)
+Determining assets that need to be reimported for target platform ... 0.009298 seconds.
+
+----- Total AssetImport time: 0.009306s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+System memory in use before: 6.4 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 4.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 335.
+Total: 4.508756 ms (FindLiveObjects: 0.025659 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.949819 ms  DeleteObjects: 0.485387 ms)
+
+
+
+Mono dependencies included in the build
+Dependency assembly - DeJson.dll
+Dependency assembly - HappyFunTimes.dll
+Dependency assembly - cssparse.net.dll
+Dependency assembly - websocket-sharp.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - Assembly-CSharp-firstpass.dll
+Dependency assembly - Assembly-CSharp.dll
+
+System memory in use before: 7.2 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 339.
+Total: 1.842761 ms (FindLiveObjects: 0.023093 ms CreateObjectMapping: 0.003848 ms MarkObjects: 0.999427 ms  DeleteObjects: 0.003421 ms)
+
+System memory in use before: 7.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 347.
+Total: 2.839622 ms (FindLiveObjects: 0.040199 ms CreateObjectMapping: 0.004276 ms MarkObjects: 0.948536 ms  DeleteObjects: 0.003848 ms)
+
+System memory in use before: 7.1 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 7.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 341.
+Total: 1.468563 ms (FindLiveObjects: 0.025659 ms CreateObjectMapping: 0.006414 ms MarkObjects: 0.950247 ms  DeleteObjects: 0.003421 ms)
+
+System memory in use before: 116.6 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.4 MB.
+
+Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 357.
+Total: 48.722191 ms (FindLiveObjects: 0.027797 ms CreateObjectMapping: 0.006842 ms MarkObjects: 1.087951 ms  DeleteObjects: 45.178223 ms)
+
+System memory in use before: 14.6 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 362.
+Total: 1.748249 ms (FindLiveObjects: 0.042765 ms CreateObjectMapping: 0.004704 ms MarkObjects: 1.150816 ms  DeleteObjects: 0.004276 ms)
+
+
+Textures      0.0 kb	 0.0% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       0.0 kb	 0.0% 
+Other Assets  0.0 kb	 0.0% 
+Levels        9.6 kb	 0.2% 
+Scripts       466.6 kb	 10.3% 
+Included DLLs 3.9 mb	 89.3% 
+File headers  8.2 kb	 0.2% 
+Complete size 4.4 mb	 100.0% 
+
+Used Assets, sorted by uncompressed size:
+ 3.4 kb	 0.1% C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll
+ 0.3 kb	 0.0% Assets/Plugins/HappyFunTimes.dll
+ 0.1 kb	 0.0% Assets/HappyFunTimes/Scripts/ExampleSimpleGameSettings.cs
+ 0.1 kb	 0.0% Assets/HappyFunTimes/Scripts/ExampleSimplePlayer.cs
+ 0.1 kb	 0.0% Assets/HappyFunTimes/Scripts/ExampleSimpleGoal.cs
+ 0.1 kb	 0.0% Assets/Plugins/HFTRunner.cs
+System memory in use before: 14.4 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 1.844899 ms (FindLiveObjects: 0.028652 ms CreateObjectMapping: 0.006414 ms MarkObjects: 1.251743 ms  DeleteObjects: 0.005987 ms)
+
+System memory in use before: 14.4 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 1.531856 ms (FindLiveObjects: 0.032501 ms CreateObjectMapping: 0.005987 ms MarkObjects: 1.007980 ms  DeleteObjects: 0.004704 ms)
+
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 17
+System memory in use before: 14.6 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 3.537126 ms (FindLiveObjects: 0.056877 ms CreateObjectMapping: 0.010263 ms MarkObjects: 1.375762 ms  DeleteObjects: 0.916462 ms)
+
+
+*** Completed 'Build.Player.LinuxStandaloneSupport' in 4 seconds
+
+Batchmode quit successfully invoked - shutting down!
+System memory in use before: 14.4 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 1.873552 ms (FindLiveObjects: 0.032074 ms CreateObjectMapping: 0.005131 ms MarkObjects: 1.232071 ms  DeleteObjects: 0.008980 ms)
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.003082 seconds (Nothing changed)
+Cleanup mono
+Exiting batchmode successfully now!
+debugger-agent: Unable to listen on 784
