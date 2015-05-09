@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using System;
 using System.Collections;
 
-public class Counter : MonoBehaviour {
+public class Counter : Singleton<Counter> {
 
+	public Text scoreText;
+	public Text equationText;
     public float sharedNumber;
     public float goalNumber;
     public float lerpSpeed;
@@ -13,12 +17,10 @@ public class Counter : MonoBehaviour {
     public float goalGenerationTime;
     float displaySharedNumber;
 
-    TextMesh myTextMesh;
-    TextMesh scoreTextMesh;
+    
+    public static event Action<int> OnGoalReached;
 
 	void Start () {
-        myTextMesh = GetComponent<TextMesh>();
-        scoreTextMesh = transform.FindChild("Score").GetComponent<TextMesh>();
         displaySharedNumber = sharedNumber;
         GenerateGoalNumber();
 	}
@@ -39,20 +41,23 @@ public class Counter : MonoBehaviour {
         }
         else if (receivedOperation == "divide")
         {
-            sharedNumber *= (1 / receivedNumber);
+            sharedNumber /= receivedNumber;
         }
         if (sharedNumber == goalNumber)
         {
             displaySharedNumber = sharedNumber;
             score += 1;
-            scoreTextMesh.text = "Score = " + score;
+            scoreText.text = "Score: " + score;
             Invoke("GenerateGoalNumber", goalGenerationTime);
+			if (OnGoalReached != null) {
+				OnGoalReached(score);
+			}
         }
     }
 
     void GenerateGoalNumber()
     {
-        goalNumber = Random.Range(minGoalNumber, maxGoalNumber);
+        goalNumber = UnityEngine.Random.Range(minGoalNumber, maxGoalNumber);
     }
 
     void Update()
@@ -68,11 +73,11 @@ public class Counter : MonoBehaviour {
         displaySharedNumber = sharedNumber;
         if (sharedNumber == goalNumber)
         {
-            myTextMesh.text = sharedNumber + " = " + goalNumber;            
+            equationText.text = sharedNumber + " = " + goalNumber;            
         }
         else
         {
-            myTextMesh.text = displaySharedNumber + " /= " + goalNumber;
+            equationText.text = displaySharedNumber + " != " + goalNumber;
         }
     }
 }

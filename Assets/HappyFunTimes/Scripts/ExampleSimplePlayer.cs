@@ -47,8 +47,6 @@ class ExampleSimplePlayer : MonoBehaviour {
         transform.localPosition = m_position;
 
         SetName(m_netPlayer.Name);
-
-        GameObject.Find("BulletSpawner").SendMessage("PlayerCount", 1);
     }
 
     void Start() {
