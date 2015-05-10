@@ -354,6 +354,9 @@ MonoBehaviour:
   respawnTime: 3
   invincibilityTime: 1
   operation: 
+  deathParticle: {fileID: 165978, guid: 4dacb61361979294eb4663303e5e7cf6, type: 2}
+  player: {fileID: 11400000}
+  particles: {fileID: 11461478}
 --- !u!114 &11461478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12516,7 +12519,7 @@ SphereCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!198 &19807454
 ParticleSystem:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186052}

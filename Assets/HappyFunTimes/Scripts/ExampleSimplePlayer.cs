@@ -7,9 +7,11 @@ using CSSParse;
 
 namespace HappyFunTimesExample {
 
-class ExampleSimplePlayer : MonoBehaviour {
+public class ExampleSimplePlayer : MonoBehaviour {
     // Classes based on MessageCmdData are automatically registered for deserialization
     // by CmdName.
+    
+    public event Action<Color> OnSetColor;
     private class MessageColor : MessageCmdData {
         public string color = "";    // in CSS format rgb(r,g,b)
     };
@@ -77,6 +79,9 @@ class ExampleSimplePlayer : MonoBehaviour {
 
     void SetColor(Color color)
     {
+    	if (OnSetColor != null) {
+    		OnSetColor(color);
+    	}
         m_color = color;
         m_renderer.material.color = m_color;
         Color[] pix = new Color[1];

@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using HappyFunTimesExample;
+using ParticlePlayground;
 
 public class PlayerManager : MonoBehaviour {
 
@@ -9,6 +11,9 @@ public class PlayerManager : MonoBehaviour {
     public float respawnTime;
     public float invincibilityTime;
     public string operation;
+    public GameObject deathParticle;
+    public ExampleSimplePlayer player;
+    public PlaygroundParticlesC particles;
     bool ableToTakeDamage;
 
     Counter counter;
@@ -19,6 +24,16 @@ public class PlayerManager : MonoBehaviour {
         counter = GameObject.Find("Counter").GetComponent<Counter>();
         personalNumberDisplay = transform.Find("PersonalNumberDisplay").GetComponent<TextMesh>();
         Respawn();
+        player.OnSetColor += HandleOnSetColor;
+    }
+
+    void HandleOnSetColor (Color c)
+    {
+		GradientColorKey[] colorKeys = new GradientColorKey[particles.lifetimeColor.colorKeys.Length];
+		for (int i = 0; i < particles.lifetimeColor.colorKeys.Length; i++) {
+    		colorKeys[i].color = c;
+    	}
+		particles.lifetimeColor.colorKeys = colorKeys;
     }
 
     void Respawn()
@@ -39,7 +54,7 @@ public class PlayerManager : MonoBehaviour {
 
     void OnTriggerEnter(Collider intruder)
     {
-        if (intruder.gameObject.tag == "Bullet")
+        if (intruder.gameObject.layer == LayerMask.NameToLayer("Asteroid"))
         {
             if (ableToTakeDamage)
             {
@@ -60,6 +75,7 @@ public class PlayerManager : MonoBehaviour {
         {
             eachRenderer.enabled = false;
         }
+        Instantiate(deathParticle, this.transform.position, Quaternion.identity);
         Invoke("Respawn", respawnTime);
     }
 
