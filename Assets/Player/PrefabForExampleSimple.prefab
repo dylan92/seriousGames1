@@ -32,9 +32,11 @@ GameObject:
   - 4: {fileID: 432532}
   - 23: {fileID: 2354592}
   - 102: {fileID: 10204628}
-  m_Layer: 0
+  - 135: {fileID: 13559812}
+  - 114: {fileID: 11455452}
+  m_Layer: 10
   m_Name: PersonalNumberDisplay
-  m_TagString: Untagged
+  m_TagString: PersonalNumber
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -337,6 +339,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+--- !u!114 &11455452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c1323271fc85f4083435dc7da77e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personalNumber: 0
+  currentModifier: 0
+  modifierSpeed: 1
 --- !u!114 &11461184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12517,6 +12533,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: .5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &13559812
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: -3, z: 0}
 --- !u!198 &19807454
 ParticleSystem:
   m_ObjectHideFlags: 2

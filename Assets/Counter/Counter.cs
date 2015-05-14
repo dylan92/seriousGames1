@@ -42,6 +42,7 @@ public class Counter : Singleton<Counter> {
         else if (receivedOperation == "divide")
         {
             sharedNumber /= receivedNumber;
+            sharedNumber = Mathf.RoundToInt(sharedNumber);
         }
         if (sharedNumber == goalNumber)
         {

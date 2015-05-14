@@ -13,7 +13,7 @@ GameObject:
   - 64: {fileID: 6495428}
   - 114: {fileID: 11446608}
   - 54: {fileID: 5415588}
-  - 114: {fileID: 11435914}
+  - 114: {fileID: 11457312}
   m_Layer: 9
   m_Name: Asteroid-001
   m_TagString: Untagged
@@ -86,22 +86,11 @@ MeshCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 196104}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: b27b5d116dd538e42bf6866db49d7e14, type: 3}
---- !u!114 &11435914
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 196104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8554ec2551f19304f87d939f682bd12f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11446608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -122,6 +111,24 @@ MonoBehaviour:
   rotationalAxis: {x: 0, y: 1, z: 0}
   driftSpeed: 0
   driftAxis: {x: 0, y: 1, z: 0}
+--- !u!114 &11457312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbb2d17fbae11349b52193acbbbad95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  minSpeed: 10
+  maxSpeed: 50
+  scale: 0
+  minScale: 5
+  maxScale: 10
+  direction: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -69,7 +69,7 @@ public class PlayerManager : MonoBehaviour {
 
     void ProcessDeath()
     {
-        counter.AdjustSharedNumber(personalNumber, operation);
+        counter.AdjustSharedNumber(personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber, operation);
         ableToTakeDamage = false;
         foreach (Renderer eachRenderer in GetComponentsInChildren<Renderer>())
         {
@@ -83,5 +83,6 @@ public class PlayerManager : MonoBehaviour {
     {
         personalNumber = Random.Range(minPersonalNumber, maxPersonalNumber);
         personalNumberDisplay.text = personalNumber.ToString();
+        personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber = personalNumber;
     }
 }
