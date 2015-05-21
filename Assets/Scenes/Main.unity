@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 196104, guid: 41ba56e2381574d41b1b8a6400903cb0, type: 2}
-  baseSpawnRate: .5
+  baseSpawnRate: .25
   spawnRateIncrease: 0
   playerCount: 0
 --- !u!4 &957091710
@@ -1583,7 +1583,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1869177335}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80, y: 45, z: 0}
+  m_LocalPosition: {x: 70, y: 39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1384832512}
@@ -1772,10 +1772,11 @@ MonoBehaviour:
   goalNumber: 0
   lerpSpeed: 1
   lerpSnapRange: 1
-  minGoalNumber: -50
-  maxGoalNumber: 50
+  minGoalNumber: -100
+  maxGoalNumber: 100
   score: 0
   goalGenerationTime: 0
+  numberDisplay: {fileID: 190410, guid: 11a89208e545e174faabed474412046b, type: 2}
 --- !u!1 &1970900377
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,6 +21,11 @@ public class Bullet : MonoBehaviour {
             direction = new Vector3(1, 0, 0);
         }
         Destroy(gameObject, 10f);
+        GetComponent<TrailRenderer>().startWidth = scale;
+        if (speed < 25f)
+        {
+            GetComponent<TrailRenderer>().time *= 2;
+        }
 	}
 
     void Update()

@@ -353,6 +353,8 @@ MonoBehaviour:
   personalNumber: 0
   currentModifier: 0
   modifierSpeed: 1
+  ableToChange: 0
+  laser: {fileID: 187520, guid: 819f10f3de9c49443943c3ffd7740394, type: 2}
 --- !u!114 &11461184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -373,6 +375,7 @@ MonoBehaviour:
   deathParticle: {fileID: 165978, guid: 4dacb61361979294eb4663303e5e7cf6, type: 2}
   player: {fileID: 11400000}
   particles: {fileID: 11461478}
+  numberDisplay: {fileID: 190410, guid: 11a89208e545e174faabed474412046b, type: 2}
 --- !u!114 &11461478
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,6 +6,9 @@ public class PersonalNumberManager : MonoBehaviour {
     public int personalNumber;
     public float currentModifier;
     public float modifierSpeed;
+    public bool ableToChange;
+
+    public GameObject laser;
 
     void Start()
     {
@@ -16,14 +19,28 @@ public class PersonalNumberManager : MonoBehaviour {
     {
         if (intruder.gameObject.tag == "PersonalNumber")
         {
-            if (intruder.GetComponent<PersonalNumberManager>().personalNumber > personalNumber)
+            if (intruder.GetComponent<PersonalNumberManager>().ableToChange && ableToChange)
             {
-                currentModifier += Time.deltaTime * modifierSpeed;
+                if (intruder.GetComponent<PersonalNumberManager>().personalNumber > personalNumber)
+                {
+                    currentModifier += Time.deltaTime * modifierSpeed;
+                }
+                if (intruder.GetComponent<PersonalNumberManager>().personalNumber < personalNumber)
+                {
+                    currentModifier -= Time.deltaTime * modifierSpeed;
+                }
             }
-            if (intruder.GetComponent<PersonalNumberManager>().personalNumber < personalNumber)
-            {
-                currentModifier -= Time.deltaTime * modifierSpeed;
-            }
+        }
+    }
+
+    void OnTriggerEnter(Collider intruder)
+    {
+        if (intruder.gameObject.tag == "PersonalNumber")
+        {
+            GameObject myLaser = Instantiate(laser, transform.position, Quaternion.identity) as GameObject;
+            myLaser.GetComponent<NumberLaser>().target = gameObject;
+            myLaser.GetComponent<NumberLaser>().main = intruder.gameObject;
+            myLaser.GetComponent<LightningBolt>().target = gameObject.transform;
         }
     }
 

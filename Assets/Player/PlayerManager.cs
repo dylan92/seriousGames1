@@ -15,6 +15,7 @@ public class PlayerManager : MonoBehaviour {
     public ExampleSimplePlayer player;
     public PlaygroundParticlesC particles;
     bool ableToTakeDamage;
+    public GameObject numberDisplay;
 
     Counter counter;
     TextMesh personalNumberDisplay;
@@ -39,6 +40,7 @@ public class PlayerManager : MonoBehaviour {
     void Respawn()
     {
         ableToTakeDamage = false;
+        personalNumberDisplay.GetComponent<PersonalNumberManager>().ableToChange = true;
         GeneratePersonalNumber();
         foreach (Renderer eachRenderer in GetComponentsInChildren<Renderer>())
         {
@@ -52,7 +54,7 @@ public class PlayerManager : MonoBehaviour {
         ableToTakeDamage = true;
     }
 
-    void OnTriggerEnter(Collider intruder)
+    void OnTriggerStay(Collider intruder)
     {
         if (intruder.gameObject.layer == LayerMask.NameToLayer("Asteroid"))
         {
@@ -69,8 +71,26 @@ public class PlayerManager : MonoBehaviour {
 
     void ProcessDeath()
     {
+        GameObject myNumberDisplay = Instantiate(numberDisplay, this.transform.position, Quaternion.identity) as GameObject;
+        if (operation == "add")
+        {
+            myNumberDisplay.GetComponent<TextMesh>().text = "+" + personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber;
+        }
+        if (operation == "subtract")
+        {
+            myNumberDisplay.GetComponent<TextMesh>().text = "-" + personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber;
+        }
+        if (operation == "multiply")
+        {
+            myNumberDisplay.GetComponent<TextMesh>().text = "x" + personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber;
+        }
+        if (operation == "divide")
+        {
+            myNumberDisplay.GetComponent<TextMesh>().text = "÷" + personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber;
+        }
         counter.AdjustSharedNumber(personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber, operation);
         ableToTakeDamage = false;
+        personalNumberDisplay.GetComponent<PersonalNumberManager>().ableToChange = false;
         foreach (Renderer eachRenderer in GetComponentsInChildren<Renderer>())
         {
             eachRenderer.enabled = false;
@@ -81,7 +101,15 @@ public class PlayerManager : MonoBehaviour {
 
     void GeneratePersonalNumber()
     {
-        personalNumber = Random.Range(minPersonalNumber, maxPersonalNumber);
+        float coin = Random.Range(-10, 10);
+        if (Mathf.Sign(coin) == 1)
+        {
+            personalNumber = Random.Range(7, 9);
+        }
+        if (Mathf.Sign(coin) == -1)
+        {
+            personalNumber = Random.Range(1, 3);
+        }
         personalNumberDisplay.text = personalNumber.ToString();
         personalNumberDisplay.GetComponent<PersonalNumberManager>().personalNumber = personalNumber;
     }

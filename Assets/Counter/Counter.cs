@@ -17,6 +17,7 @@ public class Counter : Singleton<Counter> {
     public float goalGenerationTime;
     float displaySharedNumber;
 
+    public GameObject numberDisplay;
     
     public static event Action<int> OnGoalReached;
 
@@ -46,6 +47,9 @@ public class Counter : Singleton<Counter> {
         }
         if (sharedNumber == goalNumber)
         {
+            GameObject myNumberDisplay = Instantiate(numberDisplay, new Vector3(70, 40, 0), Quaternion.identity) as GameObject;
+            myNumberDisplay.GetComponent<TextMesh>().text = goalNumber + " = " + goalNumber;
+            myNumberDisplay.GetComponent<TextMesh>().fontSize = 100;
             displaySharedNumber = sharedNumber;
             score += 1;
             scoreText.text = "Score: " + score;
@@ -63,17 +67,30 @@ public class Counter : Singleton<Counter> {
 
     void Update()
     {
-        /*if (lerpSnapRange >= Mathf.Abs(displaySharedNumber - sharedNumber))
+        /*if (lerpSnapRange <= Mathf.Abs(displaySharedNumber - sharedNumber))
         {
+            Debug.Log("asdf");
             displaySharedNumber = Mathf.RoundToInt(Mathf.Lerp(displaySharedNumber, sharedNumber, Time.deltaTime * lerpSpeed));
         }
         else
         {
+            Debug.Log("fdsa");
             displaySharedNumber = sharedNumber;
         }*/
-        displaySharedNumber = sharedNumber;
+        if (sharedNumber > displaySharedNumber)
+        {
+            displaySharedNumber += 1;
+        }
+        if (sharedNumber < displaySharedNumber)
+        {
+            displaySharedNumber -= 1;
+        }
+        //displaySharedNumber = sharedNumber;
         if (sharedNumber == goalNumber)
         {
+            GameObject myNumberDisplay = Instantiate(numberDisplay, transform.position, Quaternion.identity) as GameObject;
+            myNumberDisplay.GetComponent<TextMesh>().text = goalNumber + " = " + goalNumber;
+            myNumberDisplay.GetComponent<TextMesh>().fontSize = 48;
             equationText.text = sharedNumber + " = " + goalNumber;            
         }
         else
